@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V GPS Camera</title>
+    <meta name="description" content="Upload a photo, stamp it with your live GPS location and current date/time, and download the geotagged image." />
+    <link rel="icon" type="image/png" href="/icon-192.png" />
+
+    <!-- exif-js: reads EXIF from original files (attaches to window.EXIF) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js" crossorigin="anonymous"></script>
+    <!-- piexifjs: writes EXIF into JPEG blobs (attaches to window.piexif) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/piexifjs/1.0.6/piexif.min.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
