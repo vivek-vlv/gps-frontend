@@ -6,7 +6,6 @@ export default function UploadZone({ onFileChange }) {
         type="file"
         id="photo-input"
         accept="image/*"
-        capture="environment"
         onChange={onFileChange}
       />
       <div className="upload-icon">
